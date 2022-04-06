@@ -1,53 +1,44 @@
 <!doctype html>
 <html lang="ru">
+
 <header id= "header">
-      <meta charset = "utf-8">
-      <meta name="author" content="Mikhael Karyagin">
-      <meta name="description" content="Landing Page">
-      <meta name="keywords" content ="landing page,freecodecamp,html,css">
-      <link href="css\style.css" rel="stylesheet">
+  <meta charset = "utf-8">
+  <meta name="author" content="Mikhael Karyagin">
+  <meta name="description" content="Landing Page">
+  <meta name="keywords" content ="landing page,freecodecamp,html,css">
+  <link href="css\style.css" rel="stylesheet">
 
-      <div id="header-img">
-          <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-               id="image"
-               alt="Logo Original Trombones">
-      </div>
+<div id="header-img">
+  <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+  id="image" alt="Logo Original Trombones">
+</div>
 
-      <div id="nav-bar">
-             <nav>
-              <ul>
-              <li><a class="nav-link" href="#features">Features</a></li>
-              <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-              <li><a class="nav-link" href="#pricing">Pricing</a></li>
-              </ul>
-            </nav>
-        </div>
+<div id="nav-bar">
+ <nav>
+  <ul>
+   <li><a class="nav-link" href="#features">Features</a></li>
+   <li><a class="nav-link" href="#video_mus">How It Works</a></li>
+   <li><a class="nav-link" href="#down">Pricing</a></li>
+  </ul>
+ </nav>
+</div>
 </header>
-
 
 
 <body>
 
-<div class="container">
-
-<div id="text">
-<h1> Handcrafted, home-made masterpieces</h1><br>
-</div>
-
-<div id="form">
+<section class="up">
+<h1> Handcrafted, home-made masterpieces</h1>
+  <div id="form">
    <form action="https://www.freecodecamp.com/email-submit">
-     <input name="email" id="email" type="email" placeholder="Enter your email address" required=""><br>
+     <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
       <input id="submit" type="submit" value="Get Started">
-
     </form>
 </div>
-</div>
+</section>
 
-
-<div class = "container" id ="middle">
-
+<div class="container">
 <div id= "features">
-
 <div class="grid">
   <div class="icon">
       <svg viewBox="0 0 384 512" width="100" title="fire">
@@ -84,67 +75,70 @@
   </div>
 
   <div class="desc">
-     <h2>Quality Assurance<</h2>
+     <h2>Quality Assurance</h2>
        <p>For every purchase you make,we will ensure there are no damages or faults and we
          will check and test the pitch of your instrument. </p>
   </div>
 </div>
 
 </div>
-</div>
+
 
 
 <div id="video_mus">
-  <iframe id="video" height="315" width="550"
-  src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
-  frameborder="0" allowfullscreen></iframe>
+  <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+  allowfullscreen="" height="315" width="550" frameborder="0"></iframe>
 </div>
 
 <div id="var">
+
     <div class="block">
-    <h3>Tenor Trombone</h3>
-    <h4>$600</h4>
-         <ol>
+    <div class="level">Tenor Trombone</div>
+      <h3>$600</h3>
+          <ol>
           <li>Lorem ipsum.</li>
           <li> Lorem ipsum.</li>
           <li>Lorem ipsum dolor.</li>
           <li>Lorem ipsum.</li>
          </ol>
-    <button type="submit" id="submit_1">Select</button>
+    <button class="btn">Select</button>
+
     </div>
 
     <div class="block">
-    <h3>Bass Trombone</h3>
-    <h4>$900</h4>
+  <div class="level">Bass Trombone</div>
+    <h3>$900</h3>
          <ol>
           <li>Lorem ipsum.</li>
           <li>Lorem ipsum.</li>
           <li>Lorem ipsum dolor.</li>
           <li>Lorem ipsum.</li>
          </ol>
-    <button type="submit" id="submit_1">SELECT</button>
+    <button class="btn">SELECT</button>
     </div>
 
     <div class="block">
-    <h3>Valve Trombone</h3>
-    <h4>$1200</h4>
+    <div class="level">Valve Trombone</div>
+    <h3>$1200</h3>
          <ol>
            <li>Plays similar to a Trumpet</li>
            <li>Great for Jazz Bands</li>
            <li>Lorem ipsum dolor.</li>
            <li>Lorem ipsum.</li>
           </ol>
-          <button type="submit" id="submit_1">SELECT</button>
+          <button class="btn">SELECT</button>
     </div>
 </div>
 
+<div id="down">
  <footer>
     <ul>
-       <li><a href="#">Privacy</a></li>
-       <li><a href="#">Terms</a></li>
-       <li><a href="#">Contact</a></li>
+       <li><a href="#up">Privacy</a></li>
+       <li><a href="#up">Terms</a></li>
+       <li><a href="#up">Contact</a></li>
      </ul>
      <span>Copyright 2016, Original Trombones</span>
  </footer>
-
+</div>
+</div>
 </body>
