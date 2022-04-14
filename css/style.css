@@ -82,9 +82,27 @@ nav > ul {
   padding-bottom: 5px;
   }
 }
+
 a{
   color: #000;
   text-decoration: none;
+}
+
+#nav-bar a:link{
+  color:red;
+}
+
+#nav-bar a:visited{
+color:green;
+
+}
+
+#nav-bar a:hover{
+text-decoration: underline;
+}
+
+#nav-bar a:active{
+color:orange;
 }
 
 #header-img img{
